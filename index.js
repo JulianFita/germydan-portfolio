@@ -93,7 +93,25 @@ themeBtn.addEventListener('click', () => {
     }
 })
 
+
+// ===================== CONTACT TOGGLE
+const oberser = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show')
+        }
+    });
+});
+
+const hiddenElemtns = document.querySelectorAll('.hidden');
+hiddenElemtns.forEach((el) => oberser.observe((el)));
+
+
 // load theme on load
 window.addEventListener('load', () => {
     document.body.className = window.localStorage.getItem('theme');
 })
+
