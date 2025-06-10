@@ -1,0 +1,593 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+    <title>Germán D'Angelo Personal Portfolio Website</title>
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://kit.fontawesome.com/68fb4d97ca.js" crossorigin="anonymous"></script>
+    
+    <!-- GOOGLE FONTS (POPPINS & OUTFIT) -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- ANIMATE ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./style.css">    
+
+</head>
+<body>
+    <nav>
+            <div class="container nav__container">
+                <a href="index.html" class="nav__logo">
+                    <img src="./assets/GD_logo_blue.png" alt="Navbar Logo">
+                </a>
+                <ul class="nav__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav__buttons">
+                    <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+                    <button class="nav__toggle-open"><i class="uil uil-bars"></i></i></button>
+                    <button class="nav__toggle-close"><i class="uil uil-multiply"></i></i></button>
+                </div>
+            </div>
+    </nav>
+
+    <!-- ================================= END OF NAV ================================= -->
+
+
+
+    <header>
+        <div class="container header__container">
+            <article class="header__image" data-aos="fade-up" data-aos-delay="700">
+                <div><img src="./assets/gerHeader_1.jpg" alt="Header Image"></div>
+            </article>
+            <article class="header__content" data-aos="fade-in">
+                <h4>Hi, i'm <span>Germán D'Angelo</span>. And i'll</h4>
+                <h1>Bring your game to life</br>with stunning 3D art</h1>
+                <p>Are you seeking a skilled 3D artist to polish your game with high-quality visuals? Look no further! I've collaborated with many game studios to bring their projects to the next level. Let's discuss how I can help bring your game's world to life!</p>
+                <div class="header__cta">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="#projects" class="btn">Portfolio</a>
+                </div>
+            </article>
+            <ul class="header__socials">
+                <li><a href="https://www.facebook.com/germydan.design" target="_blank"><i class="uil uil-facebook-f"></i></i></a></li>
+                <li><a href="https://www.artstation.com/germydan" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/germydan/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/germydan.art" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ================================= END OF HEADER ================================= -->
+
+
+
+    <section class="about" id="about">
+        <div class="container about__container">
+            <div class="about__image">
+                <img src="./assets/GermanProfile_1.png" alt="About Image">
+            </div>
+            <div class="about__details" data-aos="fade-in" data-aos-delay="300">
+                <h1>About me</h1>
+                <div class="about__cards">
+                    <article class="about__card">
+                        <i class="uil uil-award-alt"></i>
+                        <h4>Experience</h4>
+                        <small>6+ years</small>
+                    </article>
+                    <article class="about__card">
+                        <i class="uil uil-swatchbook"></i>
+                        <h4>Projects</h4>
+                        <small>10+ completed</small>
+                    </article>
+                    <article class="about__card">
+                        <i class="fa-solid fa-language"></i>
+                        <h4>Languages Spoken</h4>
+                        <small>Spanish (Native) <b>/</b> English B2 <b>/</b> Portuguese A2</small>
+                    </article>
+                </div>
+                <p>
+                    Crafting immersive game environments that players love has always been my passion. With over 6 years in the game development industry and contributing to more than 10 projects for satisfied clients worldwide, I'm always motivated to create more!
+                </p>
+                <p>
+                    Hi there, my name is Germán D'Angelo and I'm a 3D Artist from Argentina. I specialize in crafting high-quality game-ready 3D assets and environments. My top priority is to bring your game vision to life with industry-standard visuals and all the creative functionality you need to immerse players. Get in touch today with the details of your project, and let's get started! Feel free to check out my portfolio below!
+                </p>
+                <a href="./assets/GermanDAngelo_Resume.pdf" class="btn primary" download target="_blank"><i class="uil uil-download-alt"></i>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- ================================= END OF ABOUT ================================= -->
+
+    <section class="section services" id="services">
+        <h1>Services</h1>
+        <p>I create high-quality 3D art for the game development industry. My services include character modeling, environmental design, prop creation, texture painting, and asset optimization. I deliver visually stunning and technically sound 3D assets that integrate seamlessly into your pipeline, helping both indie developers and larger studios bring their game worlds to life and captivate players.</p>
+        <div class="container services__container">
+            <ul class="services__left">
+                <li class="service__item prop active">
+                    <span><i class="uil uil-cube"></i></span>
+                    <div>
+                        <h3>Prop</h3>
+                        <p>50+ created</p>
+                    </div>
+                </li>
+                <li class="service__item character">
+                    <span><i class="uil uil-user"></i></span>
+                    <div>
+                        <h3>Character</h3>
+                        <p>15+ created</p>
+                    </div>
+                </li>
+                <li class="service__item environment">
+                    <span><i class="uil uil-mountains-sun"></i></span>
+                    <div>
+                        <h3>Environment</h3>
+                        <p>30+ created</p>
+                    </div>
+                </li>
+            </ul>
+            <article class="services__right" data-aos="fade-in" data-aos-delay="200">
+                <!-- <h3>Prop creation</h3>
+                <p>
+                    Props are the essential elements that populate your game worlds, adding depth, realism, and opportunities for player interaction. From intricate weaponry and character tools to environmental clutter like furniture, scattered debris, or decorative elements, prop creation is about bringing the small details that make a big difference.                    
+                </p>
+                <p>
+                    My process involves a keen eye for detail, understanding the desired art style of your project, and ensuring every asset is optimized for performance within your game engine. I focus on creating props that not only look fantastic but also seamlessly integrate into your game's narrative and gameplay mechanics, contributing to a truly immersive experience for your players.
+                </p> -->
+            </article>
+        </div>
+    </section>
+
+            <!-- ================================= END OF SERVICES ================================= -->
+
+
+
+    <section class="projects" id="projects">
+        <h1>Projects worked on</h1>
+        <p>Welcome! Here's a look at some of the exciting game projects where I've applied my expertise to deliver tangible value. Explore how my contributions have helped shape these interactive experiences, contributing to their visual appeal and market readiness.</p>
+        <ul class="projects__categories">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".wayfinder">Wayfinder</li>
+            <li data-filter=".startrekinfinite">Star Trek: Infinite</li>
+            <li data-filter=".quantumleague">Quantum League</li>
+            <li data-filter=".fanart">Fan Art</li>
+        </ul>
+
+        <div class="container projects__container" data-aos="fade-in">
+            <!--    ==================================== WAYFINDER ====================================   -->
+            <article class="project mix wayfinder" data-order="1">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Wall Tapestry.jpg" alt="Wall Tapestry">
+                </div>
+                <h3>Wayfinder - Wall Tapestry</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/qJKYNa" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="2">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Table Lamp.jpg" alt="Table Lamp">
+                </div>
+                <h3>Wayfinder - Table Lamp</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/rlKd26" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="3">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Rustic Furnitures.jpg" alt="Rustic Furnitures">
+                </div>
+                <h3>Wayfinder - Rustic Furnitures</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/GvLV2W" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="4">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Rug.jpg" alt="Rug">
+                </div>
+                <h3>Wayfinder - Rug</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/WX6x83?album_id=9870206" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>            
+            <article class="project mix wayfinder" data-order="5">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Rug-2.jpg" alt="Rug">
+                </div>
+                <h3>Wayfinder - Rug</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/dy6ReK" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="6">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Industrial Wardrobe.jpg" alt="Industrial Wardrobe">
+                </div>
+                <h3>Wayfinder - Industrial Wardrobe</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/XJ2Yby" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="7">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Industrial Hanging Light.jpg" alt="Industrial Hanging Light">
+                </div>
+                <h3>Wayfinder - Industrial Hanging Light</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/rlKd06" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="8">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Industrial Chair.jpg" alt="Industrial Chair">
+                </div>
+                <h3>Wayfinder - Industrial Chair</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/kNKozx" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="9">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Gloom Lamps.jpg" alt="Gloom Lamps">
+                </div>
+                <h3>Wayfinder - Gloom Lamps</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/2BQ4da" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="10">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Cups & Mug.jpg" alt="Cups & Mug">
+                </div>
+                <h3>Wayfinder - Cups & Mug</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/6LQXRx" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="11">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Bookshelf.jpg" alt="Bookshelf">
+                </div>
+                <h3>Wayfinder - Bookshelf</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/y43yo9" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="11">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Royal Flame.jpg" alt="Royal Flame">
+                </div>
+                <h3>Wayfinder - Royal Flame</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/oJKBnq" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="11">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Paw Trinket.jpg" alt="Paw Trinket">
+                </div>
+                <h3>Wayfinder - Paw Trinket</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/YBZr5q" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix wayfinder" data-order="11">
+                <div class="project__image">
+                    <img src="./assets/Wayfinder - Folding Fan.jpg" alt="Folding Fan">
+                </div>
+                <h3>Wayfinder - Folding Fan</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/8ba16G" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+
+            <!--    ==================================== END WAYFINDER ====================================   -->
+
+            <!--    ================================= STAR TREK: INFINITE =================================   -->
+            <article class="project mix startrekinfinite" data-order="12">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Excelsior.jpg" alt="UFOP Excelsior">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Excelsior</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/n0AoAo" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="13">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Construction.jpg" alt="UFOP Construction">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Construction</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/xDaWE2" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="14">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Transport Station.jpg" alt="UFOP Transport Station">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Transport Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/qeqLLR" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="15">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Science Station.jpg" alt="UFOP Science Station">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Science Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/QXAOOd" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="16">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Military Station.jpg" alt="UFOP Military Station">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Military Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/m8axrY" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="17">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Mining Station.jpg" alt="UFOP Mining Station">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Mining Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/BXBxAA" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="18">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - UFOP Research Station.jpg" alt="UFOP Research Station">
+                </div>
+                <h3>Star Trek: Infinite - UFOP Research Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/rJabbJ" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="19">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - Minor Outpost Station.jpg" alt="Minor Outpost Station">
+                </div>
+                <h3>Star Trek: Infinite - Minor Outpost Station</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/rJab3E" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="20">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - Cardassian Hideki.jpg" alt="Cardassian Hideki">
+                </div>
+                <h3>Star Trek: Infinite - Cardassian Hideki</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/elAGNJ" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="21">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - Cardassian Transport.jpg" alt="Cardassian Transport">
+                </div>
+                <h3>Star Trek: Infinite - Cardassian Transport</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/JvAydA" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="22">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - Cardassian Galor.jpg" alt="Cardassian Galor">
+                </div>
+                <h3>Star Trek: Infinite - Cardassian Galor</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/m8axw8" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix startrekinfinite" data-order="23">
+                <div class="project__image">
+                    <img src="./assets/Star Trek Infinite - Cardassian Science.jpg" alt="Cardassian Science">
+                </div>
+                <h3>Star Trek: Infinite - Cardassian Science</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/39KR32" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+
+            <!--    ================================= END OF STAR TREK: INFINITE =================================   -->
+
+            <!--    ======================================= QUANTUM LEAGUE =======================================   -->
+
+            <article class="project mix quantumleague" data-order="24">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Laser Beam.jpg" alt="Laser Beam">
+                </div>
+                <h3>Quantum League - Laser Beam</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/68odL0" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix quantumleague" data-order="25">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Pistol.jpg" alt="Pistol">
+                </div>
+                <h3>Quantum League - Pistol</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/q9OKaL" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix quantumleague" data-order="26">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Bjarne.jpg" alt="Bjarne">
+                </div>
+                <h3>Quantum League - Bjarne</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/Jly1Dm" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix quantumleague" data-order="27">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Justin.jpg" alt="Justin">
+                </div>
+                <h3>Quantum League - Justin</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/aRKkO8" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix quantumleague" data-order="28">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Violet.jpg" alt="Violet">
+                </div>
+                <h3>Quantum League - Violet</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/v1Na5Y" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix quantumleague" data-order="29">
+                <div class="project__image">
+                    <img src="./assets/Quantum League - Jackie.jpg" alt="Jackie">
+                </div>
+                <h3>Quantum League - Jackie</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/1nd9B3" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+
+            <!--    ======================================= END OF QUANTUM LEAGUE =======================================   -->
+
+            <!--    ============================================== FAN ART ==============================================   -->
+
+            <article class="project mix fanart" data-order="30">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Elder Ring - GlintStone Kris.jpg" alt="Elder Ring - GlintStone Kris">
+                </div>
+                <h3>Fan Art - Elder Ring - GlintStone Kris</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/4NBPel" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix fanart" data-order="31">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Stylized Sword.jpg" alt="Stylized Sword">
+                </div>
+                <h3>Fan Art - Stylized Sword</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/2qnLka" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix fanart" data-order="32">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Crusader Hercules Starlifter.jpg" alt="Crusader Hercules Starlifter">
+                </div>
+                <h3>Fan Art - Crusader Hercules Starlifter</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/d0QwY3" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix fanart" data-order="33">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Destiny Exo 01.jpg" alt="Exo 01">
+                </div>
+                <h3>Fan Art - Destiny: Exo 01</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/AqoLxz" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix fanart" data-order="34">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Dennis Rodman.jpg" alt="Dennis Rodman">
+                </div>
+                <h3>Fan Art - Dennis Rodman</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/xJRDWO" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>
+            <article class="project mix fanart" data-order="35">
+                <div class="project__image">
+                    <img src="./assets/Fan Art - Hey You.jpg" alt="Hey You!">
+                </div>
+                <h3>Fan Art - Hey You!</h3>
+                <div class="project__cta">
+                    <a href="https://www.artstation.com/artwork/oAbQdw" class="btn sm primary" target="_blank">ArtStation</a>
+                </div>
+            </article>         
+        
+        
+        </div>
+    </section>
+
+
+    <!-- ================================= END OF PROJECTS ================================= -->
+
+
+    <!-- ================================= END OF PROJECTS ================================= -->
+
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+            <ul class="contact__list">
+                <li data-aos="fade-in"><a href="mailto:germydan.art@gmail.com" class="contact__list-item" target="_blank">
+                    <i class="uil uil-envelope"></i>
+                </a></li>
+                <li data-aos="fade-in" data-aos-delay="150"><a href="www.messenger.com/t/" class="contact__list-item" target="_blank">
+                    <i class="uil uil-facebook-messenger-alt"></i>
+                </a></li>
+                <li data-aos="fade-in" data-aos-delay="300"><a href="https://wa.me/+351961185504" class="contact__list-item" target="_blank">
+                    <i class="uil uil-whatsapp"></i>
+                </a></li>
+                <li data-aos="fade-in" data-aos-delay="450"><a href="tel:+351961185504" class="contact__list-item" target="_blank">
+                    <i class="uil uil-phone"></i>
+                </a></li>
+            </ul>
+
+            <form action="https://formsubmit.co/germydan.art@gmail.com" method="POST" class="contact__form" data-aos="fade-up" data-aos-delay="600">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+                <textarea rows="7" name="Message" placeholder="Message"></textarea>
+                <button type="submit" class="btn" target="_blank">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- ================================= END OF CONTACT ================================= -->
+
+<footer>
+    <div class="container footer_container">
+        <ul class="footer__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="footer__socials">
+            <li><a href="https://www.facebook.com/germydan.design" target="_blank"><i class="uil uil-facebook-f"></i></i></a></li>
+            <li><a href="https://www.artstation.com/germydan" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/germydan/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/germydan.art" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer__copyright">
+        <small>2025 &copy; All right Reserved.</small>
+    </div>
+</footer>
+
+
+
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1500, offset: 80});
+    </script>    
+    <script src="./data.js"></script>    
+    <script src="./index.js"></script> 
+
+</body>
+</html>
