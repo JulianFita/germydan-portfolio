@@ -24,8 +24,10 @@
   --primary-hue: 210;
   --color-primary: hsl(var(--primary-hue), 87%, 44%);
   --color-nav-bg: hsla(var(--primary-hue), 0%, 100%, 0.4);
-  --color-gray-100: hsla(var(--primary-hue), 0%, 100%);
-  --color-gray-200: hsla(var(--primary-hue), 0%, 95%);
+  /* --color-gray-100: hsla(var(--primary-hue), 0%, 100%); */
+  --color-gray-100: #c0c0c0;
+  /* --color-gray-200: hsla(var(--primary-hue), 0%, 95%); */
+  --color-gray-200: #939393;
   --color-gray-300: hsla(var(--primary-hue), 0%, 85%);
   --color-gray-400: hsla(var(--primary-hue), 0%, 70%);
   --color-gray-500: hsla(var(--primary-hue), 0%, 55%);
