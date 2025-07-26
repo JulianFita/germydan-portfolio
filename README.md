@@ -14,11 +14,9 @@ Absolutely! Here's a polished README template based on the repository you shared
 * [Features](#features)
 * [Technologies](#technologies)
 * [Getting Started](#getting-started)
-* [Usage](#usage)
 * [Deployment](#deployment)
 * [Customizing](#customizing)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 ---
@@ -64,18 +62,6 @@ Make sure you have **Node.js** and **npm** installed.
 
 ---
 
-### Usage
-
-After running locally, a development server (e.g. at `localhost:3000`) will auto-reload on changes.
-Populate the site content via configuration files, content components, or static files—depending on the setup—to update sections like:
-
-* **About**: personal summary
-* **Projects**: project titles, descriptions, images, live demo or repo links
-* **Skills**: list of programming languages, tools, frameworks
-* **Contact**: links to email, LinkedIn, GitHub profiles
-
----
-
 ### Deployment
 
 Deploy options include:
@@ -99,12 +85,6 @@ To personalize the portfolio:
 ### Contributing
 
 Feel free to fork the repository and submit pull requests if you’d like to add features, refactor components, or improve styling! Please ensure your contributions follow the existing project structure and styling conventions.
-
----
-
-### License
-
-Include license details here (e.g. MIT, GPL‑3.0, etc.), or remove this section if no license is applied.
 
 ---
 
