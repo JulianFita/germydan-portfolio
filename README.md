@@ -43,9 +43,9 @@ This repository contains the source code for GermyDan's personal portfolio websi
 
 ### Technologies
 
-* **Frontend:** HTML5, CSS (or SCSS), JavaScript (or a framework like React if used)
-* **Libraries:** e.g. animations, forms, icon fonts (depending on the tech stack)
-* **Tools:** Node.js, npm/yarn for package management, optional build tools
+* **Frontend:** HTML5, CSS (or SCSS), JavaScript
+* **Libraries:** animations, forms, icon fonts
+* **Tools:** Node.js, npm/yarn for package management
 
 ---
 
