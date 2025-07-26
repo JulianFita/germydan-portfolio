@@ -1,5 +1,3 @@
-Absolutely! Here's a polished README template based on the repository you shared:
-
 ---
 
 ## 🧑‍💻 GermyDan Portfolio
