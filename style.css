@@ -21,11 +21,11 @@
   --transition: all 300ms ease;
 
   /*--primary-hue: 358;*/
-  --primary-hue: 210;
+  --primary-hue: 210; /* "210" = azul principal */
   --color-primary: hsl(var(--primary-hue), 87%, 44%);
   --color-nav-bg: hsla(var(--primary-hue), 0%, 100%, 0.4);
   /* --color-gray-100: hsla(var(--primary-hue), 0%, 100%); */
-  --color-gray-100: #c0c0c0;
+  --color-gray-100: #b1b1b1;
   /* --color-gray-200: hsla(var(--primary-hue), 0%, 95%); */
   --color-gray-200: #939393;
   --color-gray-300: hsla(var(--primary-hue), 0%, 85%);
@@ -329,6 +329,7 @@ header {
   height: fit-content;
   max-height: 50rem;
   overflow: hidden;
+  border-radius: 10%;
 }
 
 .about__cards {
@@ -536,6 +537,23 @@ li.mixitup-control-active {
   justify-content: center;
   align-items: center;
 }
+
+/*    ==================================== PROJECTS COVER STYLE ====================================   */
+
+/* Oculta todos los covers por defecto */
+.project-covers {
+    display: none; /* Esto oculta el cover por defecto */
+}
+
+.project-cover img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: var(--radius-4);
+    height: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/*    ==================================== PROJECTS COVER ====================================   */
 
 /* ================================= CONTACT  =================================*/
 

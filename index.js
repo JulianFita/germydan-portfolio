@@ -39,7 +39,35 @@ var mixer = mixitup(containerEl, {
 
 mixer.filter('*');
 
+/*    ==================================== COVERS ====================================   */
 
+// Lógica para mostrar y ocultar el cover de manera automática
+const categories = document.querySelectorAll('.projects__categories li');
+// La clase .project-covers ahora está en el propio article, no en un contenedor.
+// No necesitas la segunda clase en el selector.
+const allCovers = document.querySelectorAll('.project-covers');
+
+categories.forEach(category => {
+    category.addEventListener('click', function() {
+        const filter = this.getAttribute('data-filter');
+
+        // Primero, oculta todos los covers
+        allCovers.forEach(cover => {
+            cover.style.display = 'none';
+        });
+
+        // Si el filtro no es "All", intenta encontrar y mostrar el cover correspondiente
+        if (filter !== '*') {
+            // Busca el cover que coincida con el filtro seleccionado
+            const activeCover = document.querySelector(`[data-filter-cover="${filter}"]`);
+            if (activeCover) {
+                activeCover.style.display = 'flex';
+            }
+        }
+    });
+});
+
+/*    ==================================== COVERS ====================================   */
 
 // ===================== NAV TOGGLE (small screens)
 
