@@ -252,19 +252,12 @@ header {
   margin-inline: auto;
   border-radius: 7rem 7rem var(--radius-2) var(--radius-2); */
   
-  /*
-  width: 100%;       Allow it to take up available space
-  max-width: 27rem;  Set a maximum size it can grow to (e.g., 20rem)
-  min-width: 14rem;  Set a minimum size it won't shrink below (optional)
+  width: 100%;       /* Allow it to take up available space */
+  max-width: 27rem;  /* Set a maximum size it can grow to (e.g., 20rem) */
+  min-width: 14rem;  /* Set a minimum size it won't shrink below (optional) */
   aspect-ratio: 3/4;
-  overflow: hidden; */
-  
-  border: 1rem solid var(--color-gray-100);
-  height: fit-content;
-  max-height: 50rem;
   overflow: hidden;
-  border-radius: 10%;
-
+  
   /* Consider removing or adjusting this margin-right */
   margin-right: 0; 
   margin-inline: auto; 
@@ -276,17 +269,10 @@ header {
 }
 
 .header__content {
-  /* text-align: center;
+  text-align: center;
   margin-top: 2rem;
   width: 40rem;
-  margin-inline: auto; */
-
-  display: flex;         /* Activa Flexbox */
-  justify-content: center; /* Centra los botones horizontalmente */
-  flex-wrap: wrap;       /* ¡La clave! Permite que los botones pasen a la siguiente línea si no caben */
-  gap: 1rem;             /* Espacio entre los botones */
-  margin-top: 2.5rem;      /* Espacio por encima de los botones */
-
+  margin-inline: auto;
 }
 
 .header__content h4 {
